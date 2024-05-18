@@ -1,4 +1,8 @@
-# Calculator_JS  
+# Calculator_JS
 ## Contains:
-- Simple calculator
 - Deposit calculator
+![when loading](/Deposit_calculator/img/when%20loading.png)
+![isCapitalYes](/Deposit_calculator/img/isCapitalYes.png)
+![isCapitalNo](/Deposit_calculator/img/isCapitalNo.png)
+
+- Simple calculator
