@@ -1,4 +1,4 @@
-# Calculator_JS
+# Calculators on JavaScript
 **Contains:**
 - *Deposit calculator*
 
