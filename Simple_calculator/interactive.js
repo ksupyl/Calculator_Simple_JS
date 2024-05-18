@@ -4,7 +4,7 @@ function addToDisplay(value) {
 
 function deleteChar(input) {
     if(input.value.length == 1) {
-        input.value = 0;
+        input.value = '';
     } else {
         input.value = input.value.substring(0, input.value.length - 1);
     }
