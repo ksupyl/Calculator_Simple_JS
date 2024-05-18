@@ -3,38 +3,40 @@
   <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="style.css" />
-    <title>Калькулятор</title>
+    <title>Simple calculator</title>
   </head>
   <body>
     <main>
-      <h1>Javascript Calculator</h1>
+      <h1>Simple calculator</h1>
 
       <div id="calculator">
         <input type="text" id="display" disabled />
         <br />
-        <button onclick="clearDisplay()">C</button>
-        <button onclick="addToDisplay('/')">÷</button>
-        <button onclick="addToDisplay('*')">x</button>
-        <button onclick="deleteChar(document.getElementById('display'))">⌫</button>
-        <br />
-        <button onclick="addToDisplay('7')">7</button>
-        <button onclick="addToDisplay('8')">8</button>
-        <button onclick="addToDisplay('9')">9</button>
-        <button onclick="addToDisplay('-')">-</button>
-        <br />
-        <button onclick="addToDisplay('4')">4</button>
-        <button onclick="addToDisplay('5')">5</button>
-        <button onclick="addToDisplay('6')">6</button>
-        <button onclick="addToDisplay('+')">+</button>
-        <br />
-        <button onclick="addToDisplay('1')">1</button>
-        <button onclick="addToDisplay('2')">2</button>
-        <button onclick="addToDisplay('3')">3</button>
-        <br />
-        <button onclick="addToDisplay('0')">0</button>
+        <div id="calculator_buttons">
+            <button onclick="clearDisplay()">C</button>
+            <button onclick="addToDisplay('/')">÷</button>
+            <button onclick="addToDisplay('*')">x</button>
+            <button onclick="deleteChar(document.getElementById('display'))">⌫</button>
 
-        <button onclick="addToDisplay(',')">,</button>
-        <button onclick="calculateResult()">=</button>
+            <button onclick="addToDisplay('7')">7</button>
+            <button onclick="addToDisplay('8')">8</button>
+            <button onclick="addToDisplay('9')">9</button>
+            <button onclick="addToDisplay('-')">-</button>
+
+            <button onclick="addToDisplay('4')">4</button>
+            <button onclick="addToDisplay('5')">5</button>
+            <button onclick="addToDisplay('6')">6</button>
+            <button onclick="addToDisplay('+')">+</button>
+
+            <button onclick="addToDisplay('1')">1</button>
+            <button onclick="addToDisplay('2')">2</button>
+            <button onclick="addToDisplay('3')">3</button>
+            <button id="result" onclick="calculateResult()">=</button>
+
+            <button onclick="addToDisplay('0')">0</button>
+            <button onclick="addToDisplay('00')">00</button>
+            <button onclick="addToDisplay(',')">,</button>
+        </div>
       </div>
     </main>
     <script src="interactive.js"></script>
